@@ -10,19 +10,45 @@ body {
 }
 
 /* Add styles here! */
-strong {
-  color: hsl(160deg, 100%, 30%);
+main {
+  background-color: hsl(0, 0%, 40%);
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
-.title {
-  font-size: 2rem;
-  margin-bottom: 48px;
+header {
+   border-bottom: 8px solid hsl(0, 0%, 60%);
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
 }
 
 p {
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: 16px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-chunk {
+  padding: 64px 24px;
+  padding-top: 96px;
+}
+
+.intro-chunk p {
+  min-width: 340px;
+  max-width: 420px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 48px;
 }
 
 .indented-heading {
@@ -34,36 +60,8 @@ p {
   margin-left: -32px;
 }
 
-main {
-  background-color: hsl(0, 0%, 40%);
-  padding-top: 72px;
-  padding-bottom: 72px;
-}
-
-.max-width-wrapper {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
 .card {
   background-color: white;
   padding: 8px 24px;
   border-bottom: 8px solid hsl(0, 0%, 60%);
-}
-
-.intro-chunk {
-  padding: 64px 24px;
-  padding-top: 96px;
-}
-
-header {
-   border-bottom: 8px solid hsl(0, 0%, 60%);
-}
-
-.intro-chunk p {
-  min-width: 340px;
-  max-width: 420px;
 }
